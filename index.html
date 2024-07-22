@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Salud</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Monitor de Temperatura Corporal y Ritmo Cardíaco</h1>
+    
+    <div id="temperature">
+        <h2>Temperatura Corporal</h2>
+        <p id="tempValue">Cargando...</p>
+    </div>
+
+    <div id="pulse">
+        <h2>Ritmo Cardíaco</h2>
+        <p id="pulseValue">Cargando...</p>
+    </div>
+
+    <div id="chartContainer">
+        <h2>Gráfico de Ritmo Cardíaco</h2>
+        <canvas id="pulseChart" width="400" height="200"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
